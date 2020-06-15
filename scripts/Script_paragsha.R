@@ -10,7 +10,7 @@ library(gganimate)
 options(scipen = 999)
 
 # leer archivo
-PM10_paragsha <- read_excel("PM10_paragsha.xlsx", 
+PM10_paragsha <- read_excel("data/PM10_paragsha.xlsx", 
                             col_types = c("date", "numeric", "numeric", "numeric"))
 
 str(PM10_paragsha)

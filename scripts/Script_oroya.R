@@ -9,7 +9,7 @@ library(ggmap)
 # leer archivo
 library(readxl)
 
-SO2_oroya <- read_excel("SO2_oroya.xlsx",
+SO2_oroya <- read_excel("data/SO2_oroya.xlsx",
                         col_types = c("date", "numeric", "numeric", "numeric", "numeric"))
 
 
